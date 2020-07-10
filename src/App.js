@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import Search from './components/Search';
+import VideoPlayer from './components/VideoPlayer';
+import { getId } from './services/videoId';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [url, setUrl] = useState(
+        'https://www.youtube.com/watch?v=sP2qqMegNKA'
+    );
+    const [videoId, setVideoId] = useState('');
+
+    useEffect(() => {
+        const id = getId(url);
+        setVideoId(id);
+    }, [url]);
+
+    return (
+        <div className="App">
+            <div className="AppContainer">
+                <Search setUrl={setUrl}></Search>
+                <VideoPlayer id={videoId}></VideoPlayer>
+            </div>
+        </div>
+    );
 }
 
 export default App;
