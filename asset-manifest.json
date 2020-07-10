@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/delayed-youtube-captions/static/css/main.e03f8766.chunk.css",
+    "main.js": "/delayed-youtube-captions/static/js/main.9455ad46.chunk.js",
+    "main.js.map": "/delayed-youtube-captions/static/js/main.9455ad46.chunk.js.map",
+    "runtime-main.js": "/delayed-youtube-captions/static/js/runtime-main.f11f2aa0.js",
+    "runtime-main.js.map": "/delayed-youtube-captions/static/js/runtime-main.f11f2aa0.js.map",
+    "static/js/2.bfeab77f.chunk.js": "/delayed-youtube-captions/static/js/2.bfeab77f.chunk.js",
+    "static/js/2.bfeab77f.chunk.js.map": "/delayed-youtube-captions/static/js/2.bfeab77f.chunk.js.map",
+    "index.html": "/delayed-youtube-captions/index.html",
+    "precache-manifest.b4c0c275a9999a4f3854dfc17121cf5c.js": "/delayed-youtube-captions/precache-manifest.b4c0c275a9999a4f3854dfc17121cf5c.js",
+    "service-worker.js": "/delayed-youtube-captions/service-worker.js",
+    "static/css/main.e03f8766.chunk.css.map": "/delayed-youtube-captions/static/css/main.e03f8766.chunk.css.map",
+    "static/js/2.bfeab77f.chunk.js.LICENSE.txt": "/delayed-youtube-captions/static/js/2.bfeab77f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f11f2aa0.js",
+    "static/js/2.bfeab77f.chunk.js",
+    "static/css/main.e03f8766.chunk.css",
+    "static/js/main.9455ad46.chunk.js"
+  ]
+}
